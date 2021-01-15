@@ -46,6 +46,14 @@ Artysta* stworzArtyste(string& c)
     {
         jakis_artysta = new PopGwiazda("BTS", 1234);
     }
+    else if (toupper(c.front()) == "B") 
+    {
+        jakis_artysta = new PopGwiazda("BTS", 1234);
+    }
+    if (toupper(c.front()) == "C") 
+    {
+        jakis_artysta = new PopGwiazda("BTS", 1234);
+    }
     else
     {
         jakis_artysta = new RapGwiazda("Ye", 4321);
